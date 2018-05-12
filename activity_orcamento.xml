@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FormReservaActivity"
+    android:id="@+id/linearLayout">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editNome"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:ems="10"
+                android:hint="Nome"
+                android:inputType="textPersonName"
+                tools:layout_conversion_absoluteHeight="72dp"
+                tools:layout_conversion_absoluteWidth="384dp"
+                tools:layout_editor_absoluteX="38dp"
+                tools:layout_editor_absoluteY="81dp" />
+
+            <TextView
+                android:id="@+id/labelModelo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/editMarca"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:ems="10"
+                android:hint="Marca do Aparelho"
+                android:inputType="textPersonName"
+                tools:layout_conversion_absoluteHeight="72dp"
+                tools:layout_conversion_absoluteWidth="384dp"
+                tools:layout_editor_absoluteX="38dp"
+                tools:layout_editor_absoluteY="81dp" />
+
+
+            <TextView
+                android:id="@+id/labelNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/editModelo"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:ems="10"
+                android:hint="Modelo do Aparelho"
+                android:inputType="textPersonName"
+                tools:layout_conversion_absoluteHeight="72dp"
+                tools:layout_conversion_absoluteWidth="384dp"
+                tools:layout_editor_absoluteX="38dp"
+                tools:layout_editor_absoluteY="81dp" />
+            <EditText
+                android:id="@+id/editEstadoFisico"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:ems="10"
+                android:hint="Estado Físico do Aparelho"
+                android:inputType="textPersonName"
+                tools:layout_conversion_absoluteHeight="72dp"
+                tools:layout_conversion_absoluteWidth="384dp"
+                tools:layout_editor_absoluteX="38dp"
+                tools:layout_editor_absoluteY="81dp" />
+            <EditText
+                android:id="@+id/editProblema"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:ems="10"
+                android:hint="Defina o Problema do Aparelho"
+                android:inputType="textPersonName"
+                tools:layout_conversion_absoluteHeight="72dp"
+                tools:layout_conversion_absoluteWidth="384dp"
+                tools:layout_editor_absoluteX="38dp"
+                tools:layout_editor_absoluteY="81dp" />
+
+            <TextView
+                android:id="@+id/labelTelefone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/editPhone"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:ems="10"
+                android:hint="Telefone"
+                android:inputType="phone"
+                tools:layout_conversion_absoluteHeight="60dp"
+                tools:layout_conversion_absoluteWidth="384dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="153dp" />
+
+            <TextView
+                android:id="@+id/labelEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/editE-mail"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:ems="10"
+                android:hint="E-mail"
+                android:inputType="textEmailAddress"
+                tools:layout_conversion_absoluteHeight="72dp"
+                tools:layout_conversion_absoluteWidth="368dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="235dp" />
+
+            <TextView
+                android:id="@+id/labelData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Digite informando como gostaria de receber seu orçamento" />
+
+            <EditText
+                android:id="@+id/editEnvioOrçamento"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:ems="10"
+                android:hint="SMS, Email ou Pegar na Assistência"
+                android:inputType="textPersonName"
+                tools:layout_conversion_absoluteHeight="72dp"
+                tools:layout_conversion_absoluteWidth="384dp"
+                tools:layout_editor_absoluteX="38dp"
+                tools:layout_editor_absoluteY="81dp" />
+
+            <Button
+                android:id="@+id/btnEnviar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Enviar"
+                app:layout_constraintBottom_toBottomOf="@+id/editText5"
+                app:layout_constraintEnd_toEndOf="@+id/editText6"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/editText"
+                app:layout_constraintTop_toBottomOf="@+id/editText7"
+                app:layout_constraintVertical_bias="0.0"
+                tools:layout_conversion_absoluteHeight="60dp"
+                tools:layout_conversion_absoluteWidth="384dp" />
+
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>
